@@ -1,0 +1,6 @@
+this is a simple utility bundle for java & linux
+Mostly, it constitues generalizations of commands:
+- grep
+- find
+- lookup in jar files
+in a xargs manner.

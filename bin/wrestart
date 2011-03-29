@@ -1,0 +1,10 @@
+#!/bin/sh
+web-instance=https-my.site.com
+echo "Restart web server, please wait ..."
+cwd=`pwd`
+cd /opt/sun/webserver/${web-instance}
+./stop
+./start
+echo "Done."
+cd $cwd
+

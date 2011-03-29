@@ -1,0 +1,7 @@
+#!/bin/sh
+web-instance=https-my.site.com
+cwd=`pwd`
+cd /opt/sun/webserver/bin/https/bin
+./wdeploy list -i ${web-instance} -v ${web-instance}
+cd "$cwd"
+
